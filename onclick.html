@@ -1,0 +1,28 @@
+  <html>
+   <head>
+
+  
+   </head>
+   <body>
+      First Name:<input text="text" id="display1"><br>
+      Second Name:<input text="text" id="display2"><br>
+
+      <button onclick="add()">Click Me</button>
+
+      
+        <script>
+
+          function add(){
+          event.preventDefault();
+          var first = document.getElementById("display1").value;
+          var second = document.getElementById("display2").value;
+          alert(first + " " + second);
+          }
+            
+           
+        </script>
+    
+      
+   </body>
+</html>
+
